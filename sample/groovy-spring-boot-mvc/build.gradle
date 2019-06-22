@@ -28,9 +28,9 @@ group = 'com.benjaminsproule'
 version = '0.0.1-SNAPSHOT'
 
 dependencies {
-    compile localGroovy()
-    compile 'org.springframework.boot:spring-boot-starter-web'
-    compile 'io.swagger:swagger-annotations:1.5.15'
+    api localGroovy()
+    api 'org.springframework.boot:spring-boot-starter-web'
+    api 'io.swagger:swagger-annotations:1.5.15'
 }
 
 swagger {

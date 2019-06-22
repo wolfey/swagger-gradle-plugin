@@ -27,11 +27,11 @@ group = 'com.benjaminsproule'
 version = '0.0.1-SNAPSHOT'
 
 dependencies {
-    compile 'org.scala-lang:scala-library:2.12.7'
-    compile 'org.springframework.boot:spring-boot-starter-jersey'
-    compile 'org.springframework.boot:spring-boot-starter-web'
-    compile 'io.swagger:swagger-annotations:1.5.15'
-    compile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+    api 'org.scala-lang:scala-library:2.12.7'
+    api 'org.springframework.boot:spring-boot-starter-jersey'
+    api 'org.springframework.boot:spring-boot-starter-web'
+    api 'io.swagger:swagger-annotations:1.5.15'
+    api 'javax.ws.rs:javax.ws.rs-api:2.0.1'
 }
 
 swagger {

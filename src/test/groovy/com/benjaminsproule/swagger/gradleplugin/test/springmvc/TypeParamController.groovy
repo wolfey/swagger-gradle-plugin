@@ -11,7 +11,7 @@ import javax.validation.Valid
 
 @RestController
 @RequestMapping("/api/type-param")
-class TypeParamController <T extends String> {
+class TypeParamController<T> {
 
     @PostMapping
     ResponseEntity<T> post(@Valid @RequestBody final T typeParam) {

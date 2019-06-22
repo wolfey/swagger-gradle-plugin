@@ -118,7 +118,7 @@ public class TestResourceWithClassAnnotation {
 
     @ApiOperation("An OPTIONS operation")
     @RequestMapping(path = "/options", method = RequestMethod.OPTIONS)
-    public ResponseEntity options() {
+    public ResponseEntity<?> options() {
         return ResponseEntity.ok().build();
     }
 

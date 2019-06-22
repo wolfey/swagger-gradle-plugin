@@ -31,11 +31,11 @@ group = 'com.benjaminsproule'
 version = '0.0.1-SNAPSHOT'
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}"
-    compile 'org.springframework.boot:spring-boot-starter-jersey'
-    compile 'org.springframework.boot:spring-boot-starter-web'
-    compile 'io.swagger:swagger-annotations:1.5.15'
-    compile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+    api "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}"
+    api 'org.springframework.boot:spring-boot-starter-jersey'
+    api 'org.springframework.boot:spring-boot-starter-web'
+    api 'io.swagger:swagger-annotations:1.5.15'
+    api 'javax.ws.rs:javax.ws.rs-api:2.0.1'
 }
 
 swagger {

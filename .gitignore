@@ -17,3 +17,5 @@ pom.xml
 sample/**/gradle
 sample/**/gradlew
 sample/**/gradlew.bat
+.cache-tests
+

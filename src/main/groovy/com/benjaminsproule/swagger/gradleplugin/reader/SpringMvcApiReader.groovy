@@ -333,7 +333,7 @@ class SpringMvcApiReader extends AbstractReader {
         }
 
         // process parameters
-        Class[] parameterTypes = method.getParameterTypes()
+        Class<?>[] parameterTypes = method.getParameterTypes()
         Type[] genericParameterTypes = method.getGenericParameterTypes()
         Annotation[][] paramAnnotations = method.getParameterAnnotations()
         DefaultParameterNameDiscoverer parameterNameDiscoverer = new DefaultParameterNameDiscoverer()
